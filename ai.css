@@ -1,0 +1,9 @@
+
+body{
+
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(u.jpg) no-repeat 50% 50%;
+    font-family: "Robeto",sans-serif;
+    font-size: 16px;
+    color: white;
+    opacity: 0.6;
+}

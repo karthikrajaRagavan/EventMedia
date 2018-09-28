@@ -1,0 +1,193 @@
+html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+
+}
+
+body {
+      font-family: "Robeto",sans-serif;
+      font-size: 13px;
+color:#ccc;
+      font-weight: lighter;
+
+}
+
+header {
+      width: 100%;
+      height: 100vh;
+      background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(karthik.jpg) no-repeat 50% 50%;
+      background-size: cover;
+
+}
+
+.content {
+      width: 94%;
+      margin: 4em auto;
+    
+
+      font-size: 18px;
+      line-height: 30px:
+
+      text-align: justify;
+}
+
+
+
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background: black;
+  opacity: 0.7;
+    position: relative;
+      text-align: right;
+
+  }
+
+
+  ul li{
+    display: inline-block;
+    background-color: black;
+
+
+    line-height: 30px;
+    text-align: right;
+  }
+  ul li a{
+    color: white;
+     font-family: "Robeto",sans-serif;
+     font-size: 18px;
+    text-decoration: none;
+    padding: 15px;
+
+    text-align: center;
+    display: block;
+
+  }
+  ul li:hover
+  {
+    background: #ad0801;
+  }
+ul ul {
+  position: absolute;
+  min-width: 200px;
+  background: black;
+
+  display: none;
+}
+ul ul li{
+  color: white;
+   font-family: "Robeto",sans-serif;
+   font-size: 14px;
+  display: block;
+  background: black;
+
+
+
+}
+ul ul ul{
+    margin-left: 200px;
+    top:0px;
+    opacity: 0.8;
+}
+ul li:hover ul{
+  display: block;
+
+}
+ul li i{
+  color: #292929;
+  float: right;
+  padding-left: 40px;
+}
+nav ul li a.active {
+  width: 240px;
+  height: 50%;
+
+  border: 1px solid  white;
+  padding:5px 0px;
+  font-size: 18px;
+  border-radius: 2px;
+    background: #ad0801;
+    color: #ccc;
+
+}
+neww{
+    width: 240px;
+  height: 50%;
+
+  border: 1px solid  white;
+  padding:5px 0px;
+  font-size: 18px;
+  border-radius: 2px;
+    background: #ad0801;
+    color: #ccc;
+
+
+
+}
+h1
+{
+  color: white;
+  text-transform: uppercase;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 275px;
+}
+.button
+{
+
+    margin-left: 440px;
+    text-align: center;
+
+
+}
+.btn
+{
+
+    padding: 10PX 30PX;
+    color: white;
+   border: 1px solid white;
+    text-decoration: none;
+    margin-right: 5px;
+    font-size: 13px;
+    text-transform: uppercase;
+
+}
+.btn-one
+{
+
+
+    font-family: "Robeto" sans-serif;
+}
+.hero
+{
+  margin-top: 250px;
+}
+.btn-one:hover{
+
+    background-color: #ad0801;
+    transition: all 0.5s ease-in;
+}
+
+
+@media(max-width: 768px) {
+  nav div{
+    display: block;
+
+  }
+  ul{
+    display: none;
+    position: static;
+    background: #e3e3e3;
+  }
+  ul li{
+    display: block;
+
+  }
+  ul ul{
+    position: static;
+    background: #e3e3e3;
+
+  }

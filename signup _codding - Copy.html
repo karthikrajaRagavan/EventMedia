@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>signup form</title>
+<style>
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(hero.jpg);
+    background-size:cover;
+  }
+	.sign_up{
+	border-radius:5px;
+	
+	padding:20px;
+  width: 420px;
+	margin:auto;
+	color:#fff;
+	font-size:16px;
+  font-family: "Robeto",sans-serif;
+  margin-top: 100px;
+  opacity: 0.8;
+
+	}
+	.sign_up h1{
+	text-align: center;
+	margin:0;
+	padding:0;
+
+	}
+  .sign_up input, select{
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 18px;
+    background: black;
+    color: white;
+    opacity: 0.6;
+
+
+  }
+  .sign_up input[type=submit]{
+    width: 100%;
+    border: none;
+    cursor: pointer;
+  }
+  #fname{
+    width: 49%;
+  }
+  #lname{
+    width: 49.5%;
+  }
+  #email{
+    width: 100%;
+  }
+  #password{
+    width: 49.5%;
+  }
+  #re_password{
+    width: 49%;
+  }
+  input[type=submit]:hover{
+    background: #45a049;
+   
+  }
+  option{
+    color: white;
+    background-color: dodgerblue;
+  }
+	</style>
+</head>
+<body>
+<div class ="sign_up">
+<form>
+<h1>SIGN UP</h1>
+<hr>
+<input type ="text" name ="fname" id ="fname" placeholder ="Your First Name" required>
+<input type ="text" name ="lname" id ="lname" placeholder ="Your Last Name" required>
+<input type ="text" name ="email" id ="email" placeholder ="Your Email ID or PHONE NUMBER" required>
+<input type ="password" name ="password" id ="password" placeholder ="Your Password" required>
+<input type ="password" name ="re_password" id ="re_password" placeholder ="Re-Type Password" required>
+<div class ="date_of_birth">
+<span style ="font-size:18px";>Date Of Birth</span><br>
+<select name ="DOBmonth">
+<option> Month </option>
+<option value ="January"> January </option>
+<option value ="February"> February </option>
+<option value ="March"> March </option>
+<option value ="April"> April </option>
+<option value ="May"> May </option>
+<option value ="June"> June </option>
+<option value ="July"> July </option>
+<option value ="January"> August </option>
+<option value ="September"> September </option>
+<option value ="October"> October </option>
+<option value ="November"> November<option>
+<option value ="December"> December</option>
+</select>
+<select name ="DOBDay">
+<option> Day </option>
+<option value ="1"> 1 </option>
+<option value ="2"> 2 </option>
+</select>
+<select name ="DOBYear">
+<option> Year </option>
+<option value ="1990">1990</option>
+<option value ="2000">2000</option>
+</select>
+<br>
+<input type ="radio" name ="gender" value ="male">Male
+<br>
+<input type ="radio" name ="gender" value ="female">Female
+<br>
+<input type ="checkbox"> I Accept The Terms and Conditions
+<input type ="submit" value ="Create a Account">
+
+</div>
+</form>
+</body>
+</html>
